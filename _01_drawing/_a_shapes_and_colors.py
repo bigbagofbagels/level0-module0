@@ -40,14 +40,33 @@ if __name__ == '__main__':
     # x=0 and y=0 is the center of the screen
 
     # Have your turtle draw a circle using .circle(radius, steps=30)
-    jeffery_bezos.circle(radius = 100 ,steps=)
+    jeffery_bezos.begin_fill()
+    jeffery_bezos.circle(radius = 50 ,steps= 100)
+    jeffery_bezos.color('yellow')
+    jeffery_bezos.end_fill()
     # TEST    Did your turtle draw a circle?
 
     # Add color to your shape by adding .begin_fill() before drawing the circle
-
+    jeffery_bezos.begin_fill()
+    jeffery_bezos.color('yellow')
+    jeffery_bezos.end_fill()
     # and .end_fill() below
 
     # Draw 3 more shapes with different fill colors!
+    jeffery_bezos.color('green')
+    jeffery_bezos.pencolor('blue')
+    jeffery_bezos.begin_fill()
+    jeffery_bezos.circle(radius = -50 ,steps= 100)
+    jeffery_bezos.color('yellow')
+    jeffery_bezos.end_fill()
+
+    jeffery_bezos.forward(-100)
+    jeffery_bezos.color('green')
+    jeffery_bezos.pencolor('blue')
+    jeffery_bezos.begin_fill()
+    jeffery_bezos.circle(radius = -50 ,steps= 100)
+    jeffery_bezos.color('yellow')
+    jeffery_bezos.end_fill()
 
     # ===================== DO NOT EDIT THE CODE BELOW ============================
     turtle.done()
